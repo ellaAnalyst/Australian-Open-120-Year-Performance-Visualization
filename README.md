@@ -47,11 +47,11 @@ The goal is to identify performance trends, emerging countries, and player domin
 
 ### 🎾 2. Champions and Players Analysis
 
-<img src="figures/treemap_champions.png" width="600">
+<img src="figures/6.png" width="600">
 
 > Treemap visualizing win rates by individual champions, segmented by gender.
 
-<img src="figures/scatter_players_winrate.png" width="600">
+<img src="figures/7.png" width="600">
 
 > Scatter plot comparing win rates of top players across 120 years.
 
@@ -59,7 +59,7 @@ The goal is to identify performance trends, emerging countries, and player domin
 
 ### 📈 3. Long-Term Trend Analysis
 
-<img src="figures/line_winrate_trend.png" width="600">
+<img src="figures/9.png" width="600">
 
 > Line chart visualizing moving average of win rates by gender over 120 years.
 
@@ -68,7 +68,7 @@ The goal is to identify performance trends, emerging countries, and player domin
 ## 📊 Tableau Public Dashboard
 
 Explore the full interactive dashboard:  
-👉 [View Tableau Dashboard](https://public.tableau.com/) <!-- 여기에 본인 링크 붙여넣기 -->
+👉 [View Tableau Dashboard](https://public.tableau.com/) 
 
 ---
 
