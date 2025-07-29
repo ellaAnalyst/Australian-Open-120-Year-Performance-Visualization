@@ -12,6 +12,13 @@ The goal is to identify performance trends, emerging countries, and player domin
 
 ---
 
+## 🧑‍💻 Project Role & Contribution
+
+This is an **independent project** completed by **Chaeeun Lee** as part of a university-level visual analytics report.  
+All aspects—data cleaning, transformation, visualization, insight generation, and storytelling—were solely led and developed by the author.
+
+---
+
 ## 🎯 Business Questions
 
 - How has national dominance shifted over 120 years of the Australian Open?
@@ -28,6 +35,17 @@ The goal is to identify performance trends, emerging countries, and player domin
   - Player Name, Country, Gender
   - Number of Wins, Matches Played, Win Rates
   - Titles Won, Runner-up Count, Tournament Participation Years
+
+---
+
+## 🧹 Data Cleaning & Feature Engineering
+
+Preprocessing steps were completed in **Excel** to ensure data compatibility with Tableau and consistency in visual analytics. Tasks included:
+
+- Handling missing values (e.g., seeds, match times) using placeholders like `Not Available` or `0`
+- Standardizing player names, country codes, and tournament year formats
+- Creating derived features (e.g., win rates, stage-wise results) to enable complex visualizations like parallel coordinates
+- Classifying top performers (≥ 5 titles) and segmenting data by gender for deeper comparative analysis
 
 ---
 
@@ -65,10 +83,20 @@ The goal is to identify performance trends, emerging countries, and player domin
 
 ---
 
+## 💼 Business Impact & Applicability
+
+This project offers strategic value to sports analysts, tennis federations, and sponsorship stakeholders:
+
+- **Talent pipeline identification**: Highlighting countries with emerging champions supports better wildcard and funding decisions.
+- **Sponsorship optimization**: Brands can target rising markets for partnership opportunities.
+- **Historical benchmarking**: Enables analysts to compare modern athletes with historical legends using consistent metrics.
+
+---
+
 ## 📊 Tableau Public Dashboard
 
 Explore the full interactive dashboard:  
-👉 [View Tableau Dashboard](https://public.tableau.com/) 
+👉 [View Tableau Dashboard](https://public.tableau.com/)
 
 ---
 
