@@ -1,6 +1,6 @@
 # 🎾 120 Years of Australian Open Champions – Data Visualization Project
 
-![Dashboard](Dashboard.png)
+![Dashboard](/figures/Dashboard.png)
 
 ---
 
