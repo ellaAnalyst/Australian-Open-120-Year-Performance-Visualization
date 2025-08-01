@@ -1,138 +1,109 @@
-# 🎾 Australian Open 120-Year Performance Visualization
+# 🎾 120 Years of Australian Open Champions – Data Visualization Project
 
-> Tableau-based data visualization project analyzing 120 years of Australian Open performance data.  
-> Focused on uncovering long-term trends and player-country performance insights.
+![Dashboard](Dashboard.png)
 
 ---
 
-## 📊 Project Overview
+## 📊 Overview
 
-This project visualizes historical Australian Open tennis data (1905–Present), analyzing national, gender, and player-level performance using Tableau dashboards.  
-The goal is to identify performance trends, emerging countries, and player dominance patterns over time.
+This Tableau-based visualization project explores **120 years of Australian Open tennis history (1905–2025)** through data storytelling and interactive dashboards.  
+With 110 unique champions and 212 titles, the project uncovers **performance trends by country, gender, and individual player legacy**.
 
 ---
 
 ## 🧑‍💻 Project Role & Contribution
 
-This is an **independent project** completed by **Chaeeun Lee** as part of a university-level visual analytics report.  
-All aspects—data cleaning, transformation, visualization, insight generation, and storytelling—were solely led and developed by the author.
+This is an **independent university-level project** by **Chaeeun Lee**, responsible for:
+
+- Data collection & preprocessing (Excel)
+- Feature engineering
+- Tableau dashboard creation
+- Insight generation & storytelling
 
 ---
 
 ## 🎯 Business Questions
 
-- How has national dominance shifted over 120 years of the Australian Open?
-- What are the differences in performance between male and female players?
-- Which players have demonstrated historical dominance and consistency?
+- How has national dominance shifted over time?
+- What are the performance trends by gender?
+- Who are the most dominant players in history?
 
 ---
 
-## 📂 Dataset Overview
+## 📂 Dataset Details
 
-- **Source:** Official Australian Open records (pre-processed dataset)
-- **Time Period:** 1905 – Present
-- **Features:**
+- **Source**: Official Australian Open records (pre-processed)
+- **Time Range**: 1905 – 2025
+- **Key Features**:
   - Player Name, Country, Gender
-  - Number of Wins, Matches Played, Win Rates
-  - Titles Won, Runner-up Count, Tournament Participation Years
+  - Wins, Matches Played, Titles
+  - Runner-ups, Participation Years
+  - Derived stats (win rate, consistency, etc.)
 
 ---
 
-## 🧹 Data Cleaning & Feature Engineering
+## 🧹 Data Cleaning & Engineering
 
-Preprocessing steps were completed in **Excel** to ensure data compatibility with Tableau and consistency in visual analytics. Tasks included:
+Data preprocessing was done in **Excel** with tasks including:
 
-- Handling missing values (e.g., seeds, match times) using placeholders like `Not Available` or `0`
-- Standardizing player names, country codes, and tournament year formats
-- Creating derived features (e.g., win rates, stage-wise results) to enable complex visualizations like parallel coordinates
-- Classifying top performers (≥ 5 titles) and segmenting data by gender for deeper comparative analysis
-
----
-
-## 📊 Visualization Highlights
-
-### 🗺️ 1. Country-Level Performance
-
-<img src="figures/3.png" width="600">
-
-> A world map showing the total number of Australian Open titles by country.
-
-<img src="figures/4.png" width="600">
-
-> Geographic distribution of countries based on average win rates.
+- Filling missing data (`Not Available`, `0`)
+- Standardizing names, countries, date formats
+- Creating features: win rates, stage analysis, top performers
+- Gender-based segmentation for comparative analysis
 
 ---
 
-### 🎾 2. Champions and Players Analysis
+## 📊 Key Visualizations
 
-<img src="figures/6.png" width="600">
+### 🌍 Country Performance
 
-> Treemap visualizing win rates by individual champions, segmented by gender.
+- Win rate choropleth map  
+- Title distribution by country  
+- Rise of non-traditional tennis nations (e.g., China, Japan)
 
-<img src="figures/7.png" width="600">
+### 🎾 Player Analysis
 
-> Scatter plot comparing win rates of top players across 120 years.
+- Treemaps & scatter plots by win rate and titles  
+- Gender-segmented trends of consistency and dominance
 
----
+### 📈 Trend Analysis
 
-### 📈 3. Long-Term Trend Analysis
-
-<img src="figures/9.png" width="600">
-
-> Line chart visualizing moving average of win rates by gender over 120 years.
-
----
-
-## 💼 Business Impact & Applicability
-
-This project offers strategic value to sports analysts, tennis federations, and sponsorship stakeholders:
-
-- **Talent pipeline identification**: Highlighting countries with emerging champions supports better wildcard and funding decisions.
-- **Sponsorship optimization**: Brands can target rising markets for partnership opportunities.
-- **Historical benchmarking**: Enables analysts to compare modern athletes with historical legends using consistent metrics.
+- 120-year moving average comparison (men vs. women)
+- Gender trend lines show higher consistency in women’s performances
 
 ---
 
-## 📊 Tableau Public Dashboard
+## 💼 Business Impact
 
-Explore the full interactive dashboard:  
-👉 [View Tableau Dashboard](https://public.tableau.com/)
-
----
-
-## 💡 Key Insights
-
-- Historically, Australia and the USA dominated the Australian Open.
-- Emerging nations (Japan, China) are showing increased success in recent decades.
-- Women’s players demonstrate higher consistency in win rates over the years.
-- Parallel coordinate plots and scatter plots highlight top players’ dominance and consistency.
+- **Talent Scouting**: Identify rising tennis nations and invest early  
+- **Sponsorship Targeting**: Align with high-potential regions or players  
+- **Historical Benchmarking**: Compare current players with legends like Court, Djokovic, Williams
 
 ---
 
-## 📁 Project Files
+## 🔗 Explore the Dashboard
 
-| Folder / File          | Description                                |
-|------------------------|--------------------------------------------|
-| `tableau/`             | Tableau workbook file (`.twbx`)            |
-| `figures/`             | Key visualizations (PNG images)            |
-| `reports/`             | PDF report summarizing analysis            |
-| `README.md`            | Project overview and documentation         |
+👉 **[View Tableau Public Dashboard]([https://public.tableau.com/](https://public.tableau.com/shared/25KZK8PDJ?:display_count=n&:origin=viz_share_link))**  
+(Interactive version with hover tooltips)
+
+---
+
+## 📁 Project Structure
+
+| Folder / File         | Description                                  |
+|-----------------------|----------------------------------------------|
+| `Dashboard.png`       | Main dashboard snapshot image                |
+| `tableau/`            | Tableau workbook file (`.twbx`)              |
+| `figures/`            | Supplementary visualizations (PNG)           |
+| `reports/`            | PDF summary report                           |
+| `README.md`           | Project overview and documentation           |
 
 ---
 
 ## 🛠️ Tools Used
 
-- Tableau Desktop (Data Visualization & Dashboard)
-- Excel (Data Preprocessing)
-
----
-
-## 📦 Deliverables
-
-- Interactive Tableau dashboard (public link)
-- 8+ Key visualizations (maps, treemaps, scatter plots)
-- PDF report with summary insights
-- Tableau workbook file (`.twbx`)
+- **Tableau** – for data visualization and dashboarding  
+- **Excel** – for data cleaning and transformation  
 
 ---
 
